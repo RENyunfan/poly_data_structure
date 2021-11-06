@@ -19,4 +19,14 @@ typedef Eigen::Matrix<double, 3, 3> StatePVA;
 typedef Eigen::Matrix<double, 3, 4> StatePVAJ;
 typedef Eigen::Matrix<double, Eigen::Dynamic, Eigen::Dynamic> DynamicMat;
 
+
+
+struct Ball {
+    Vec3 center;
+    Vec3 nn_pt;
+    double radius;
+};
+typedef vector<Ball> BallVector;
+
+
 #endif //POLY_DATA_STRUCTURE_COMMON_INCLUDE_HPP

@@ -4,6 +4,7 @@
 
 #ifndef POLY_DATA_STRUCTURE_TRAJECTORY_HPP
 #define POLY_DATA_STRUCTURE_TRAJECTORY_HPP
+
 #include "common_include.hpp"
 #include "Piece.hpp"
 #include "BandedSystem.hpp"
@@ -368,7 +369,7 @@ public:
         return;
     }
 
-    inline void getOmegaAndaTAndRpy(const double &t,
+    inline void getOmegaAndAtAndRpy(const double &t,
                                     const double &yaw,
                                     const double &yaw_dot,
                                     const double &gAcc,
